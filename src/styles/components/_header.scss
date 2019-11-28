@@ -1,0 +1,22 @@
+// Block
+.header {
+    background: $dark-blue;
+}
+
+// Element
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $s-size 0;
+}
+
+// Element
+.header__title {
+    color: $white;
+    text-decoration: none;
+    h1 {
+        margin: 0;
+    }
+}
+

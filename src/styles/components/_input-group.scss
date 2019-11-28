@@ -1,0 +1,22 @@
+// Block
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $m-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;
+        justify-content: $s-size;
+        align-items: center;
+        margin-bottom: $l-size;
+    }
+}
+
+// Element
+.input-group__item {
+    margin-bottom: $s-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $s-size 0 0;
+    }
+}

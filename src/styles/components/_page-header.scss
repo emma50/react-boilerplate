@@ -1,0 +1,21 @@
+// Block
+.page-header {
+    background: $ghost-white;
+    padding: $l-size 0;
+    margin-bottom: $l-size;
+}
+
+// Element
+.page-header__actions {
+    margin-top: $m-size;
+}
+
+// Element
+.page-header__title {
+    background: $snow;
+    margin: 0;
+    font-weight: 300;
+    span {
+        font-weight: 700;
+    }
+}
